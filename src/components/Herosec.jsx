@@ -24,9 +24,9 @@ const Herosec = () => {
                             <img src={logo} alt="logo" />
                         </div>
                         <ul className={`${nav ? "left-0" : "left-100 "} d-flex align-items-center  gap-4 mobileView `}>
-                            <li><a href="#" className='list fs-1sm text-light1 fw-normal font_flex '>About Us</a></li>
-                            <li><a href="#" className='list fs-1sm text-light1 fw-normal font_flex '>Our Team</a></li>
-                            <li><a href="#" className='list fs-1sm text-light1 fw-normal font_flex pe-lg-4 pe-0'>Roadmap</a></li>
+                            <li><a href="#About" className='list fs-1sm text-light1 fw-normal font_flex '>About Us</a></li>
+                            <li><a href="#ourTeam" className='list fs-1sm text-light1 fw-normal font_flex '>Our Team</a></li>
+                            <li><a href="#Roadmap" className='list fs-1sm text-light1 fw-normal font_flex pe-lg-4 pe-0'>Roadmap</a></li>
                             <li><a href="#" > <Comanbtn text='Contact Us' /></a></li>
                         </ul>
                         <label className=' d-lg-none' onClick={show}>

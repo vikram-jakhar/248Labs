@@ -7,7 +7,7 @@ import roadmapLOgo from "../assets/Svg/roadmapLogo.svg";
 import STAR from "../assets/Svg/STAR.svg";
 const Roadmap = () => {
     return (
-        <section id="roadmap" className=" bg-black pt-sm-5 position-relative z-1 overflow-x-clip    "  >
+        <section id="Roadmap" className=" bg-black pt-sm-5 position-relative z-1 overflow-x-clip    "  >
             <span className="Elipse6"></span>
             <h1 className=' fs-xl fw-bold font_flex position-absolute Roadmapo_flow text-gray1 z-n1 '>Roadmap</h1>
             <div className="Roadmapbg ">

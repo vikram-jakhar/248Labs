@@ -11,9 +11,9 @@ const Footer = () => {
                     <img src={flogo} alt="logo" />
                     <ul className='d-flex gap-4 mt-3 '>
                         <li><a href="#" className='fs-1sm fw-normal font_flex text-light2'>Home</a></li>
-                        <li><a href="#" className='fs-1sm fw-normal font_flex text-light2'>Roadmap</a></li>
-                        <li><a href="#" className='fs-1sm fw-normal font_flex text-light2'>Team</a></li>
-                        <li><a href="#" className='fs-1sm fw-normal font_flex text-light2'>About Us</a></li>
+                        <li><a href="#Roadmap" className='fs-1sm fw-normal font_flex text-light2'>Roadmap</a></li>
+                        <li><a href="#ourTeam" className='fs-1sm fw-normal font_flex text-light2'>Team</a></li>
+                        <li><a href="#About" className='fs-1sm fw-normal font_flex text-light2'>About Us</a></li>
                     </ul>
                     <div className='d-flex gap-3 mt-4'>
                         <span className='Socail-Circle d-flex justify-content-center align-items-center '>
