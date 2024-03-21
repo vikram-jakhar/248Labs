@@ -886,6 +886,13 @@ input {
   height: 35px;
 }
 
+.playIcon {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/* ////////    keyframes   ////// */
+
 @keyframes scale-up4 {
   20% {
     transform: scaleY(1.5);
@@ -905,7 +912,7 @@ input {
     transform: translateX(calc(-250px * 7));
   }
 }
-
+/* /////////   Bearkpoints  ////////// */
 
 @media (max-width:992px) {
   .mobileView {
