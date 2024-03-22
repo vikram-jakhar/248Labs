@@ -78,7 +78,7 @@ const Email = () => {
 
     return (
         <div>
-            <div className="Emailbg bg-black  d-flex overflow-x-clip ">
+            <div className="Emailbg max_1920 bg-black  d-flex overflow-x-clip ">
                 <div className="container d-flex flex-column justify-content-center align-items-center">
                     <div className="row ps-3 flex-grow-md-1 align-items-center justify-content-center">
                         <div className="col-lg-8 col-12">

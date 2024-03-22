@@ -5,7 +5,7 @@ import Comanbtn from './Comanbtn'
 const Companions = () => {
     return (
         <>
-            <div className='bg-black pb-75 position-relative z-1 overflow-x-clip '>
+            <div className='bg-black max_1920 pb-75 position-relative z-1 overflow-x-clip '>
                 <span className='Elipse2 position-absolute '></span>
                 <div className='container '>
                     <img src={Domin} alt="Dominimg" className='w-100 mt-75 ' />

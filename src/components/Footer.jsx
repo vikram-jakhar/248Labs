@@ -4,7 +4,7 @@ import flogo from '../assets/Svg/logo.svg'
 const Footer = () => {
     return (
         <>
-            <div className='position-relative z-1 overflow-hidden mt-lg-0 mt-4'>
+            <div className='position-relative max_1920 z-1 overflow-hidden mt-lg-0 mt-4'>
                 <span className="Elipse7"></span>
                 <span className="Elipse8"></span>
                 <div className='d-flex flex-column justify-content-center align-items-center '>

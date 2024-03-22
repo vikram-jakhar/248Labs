@@ -4,7 +4,7 @@ import Comanbtn from './Comanbtn'
 const GamingLavel = () => {
     return (
         <>
-            <div className='bg-black pb-75 position-relative  z-1 overflow-x-clip'>
+            <div className='bg-black max_1920 pb-75 position-relative  z-1 overflow-x-clip'>
                 <div className='gamingBg d-flex   align-items-center '>
                     <div className='container d-flex justify-content-end   '>
                         <div className='box1'>

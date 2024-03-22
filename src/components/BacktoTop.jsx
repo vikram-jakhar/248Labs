@@ -26,7 +26,7 @@ const BacktoTop = () => {
 
 
     return (
-        <d>
+        <div className='max_1920'>
             <button
                 className={`${isVisible ? 'opacity-100' : 'opacity-0'
                     } backTotop animate-bounce`}
@@ -34,7 +34,7 @@ const BacktoTop = () => {
             >
                 <img src={backtotop} alt="backtotop" className='circle1' />
             </button>
-        </d>
+        </div>
     )
 }
 

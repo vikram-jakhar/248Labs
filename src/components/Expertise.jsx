@@ -11,7 +11,7 @@ import Jae_Sik_Choi from '../assets/image/Jae_Sik_Choi.webp'
 const Expertise = () => {
     return (
         < >
-            <div id='ourTeam' className='position-relative overflow-x-clip '>
+            <div id='ourTeam' className='position-relative max_1920 overflow-x-clip '>
                 <span className="Elipse4"></span>
                 <span className="Elipse5"></span>
                 <h1 className=' fs-xl fw-bold font_flex position-absolute Our_Team text-gray1 z-n1 text-nowrap  '>Our Team</h1>

@@ -15,7 +15,7 @@ const Herosec = () => {
     };
     return (
         <>
-            <div className='hero-bg d-flex  flex-column '>
+            <div className='hero-bg max_1920 d-flex  flex-column '>
 
                 <div className="container">
                     <nav className='d-flex align-items-center justify-content-between mt-3    '>
@@ -30,20 +30,20 @@ const Herosec = () => {
                             <li><a href="#" > <Comanbtn text='Contact Us' /></a></li>
                         </ul>
                         <label className=' d-lg-none' onClick={show}>
-                        {nav ? (
-                            <div className='position-relative  z-40'>
-                                <span className=' navmenu'></span>
-                                <span className='navmenu2 '></span>
-                            </div>
-                        ) : (
-                            <div className='position-relative  z-40'>
-                                <span className=' navmenu3'></span>
-                                <span className='navmenu3'></span>
-                                <span className=' navmenu3'></span>
-                            </div>
-                        )}
-                    </label>
-                    
+                            {nav ? (
+                                <div className='position-relative  z-40'>
+                                    <span className=' navmenu'></span>
+                                    <span className='navmenu2 '></span>
+                                </div>
+                            ) : (
+                                <div className='position-relative  z-40'>
+                                    <span className=' navmenu3'></span>
+                                    <span className='navmenu3'></span>
+                                    <span className=' navmenu3'></span>
+                                </div>
+                            )}
+                        </label>
+
 
                     </nav>
                 </div>

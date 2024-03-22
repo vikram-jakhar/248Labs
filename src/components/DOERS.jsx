@@ -26,7 +26,7 @@ const DOERS = () => {
     ))
     return (
         <>
-            <div id='About' className='pt-121 bg-black mt1 position-relative overflow-x-clip z-1  '>
+            <div id='About' className='pt-121 bg-black max_1920 mt1 position-relative overflow-x-clip z-1  '>
                 <span className='Elipse1 position-absolute '></span>
                 <h1 className=' fs-xl fw-bold font_flex position-absolute about-h text-gray1 z-n1 text-nowrap  '>About Us</h1>
                 <div className='container'>

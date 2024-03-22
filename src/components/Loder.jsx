@@ -16,16 +16,17 @@ const Lodersec = () => {
         <>
             {loder ? (
                 <div id="preloder"
-                    class="d-flex position-fixed top-0 start-0 align-items-center justify-content-center w-100 min-vh-100 bg-black    z80">
-                    <div class="loader">
-                        <div class="d-flex justify-content-center align-items-center gap-2">
-                            <span class="pariloder"></span>
-                            <span class="pariloder"></span>
-                            <span class="pariloder"></span>
-                        </div>
+                    className="d-flex position-fixed top-0 start-0 align-items-center justify-content-center w-100 min-vh-100 bg-black    z80">
+                    <div className="loader d-flex flex-column  ">
                         <div>
-                            <h2 class="prehead fs-lg text-white fw-semibold ">248 Labs</h2>
+                            <h2 className="prehead fs-lg text-white fw-semibold animation-bounse ">248 Labs</h2>
                         </div>
+                        <div className="d-flex justify-content-center align-items-center gap-2">
+                            <span className="pariloder"></span>
+                            <span className="pariloder"></span>
+                            <span className="pariloder"></span>
+                        </div>
+
                     </div>
                 </div>
             )
